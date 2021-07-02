@@ -1,0 +1,88 @@
+.hamburger{
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    margin : 3px 2px;
+    
+
+}
+navbar{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+.nav-right li{
+    margin-top: 20px;
+}
+
+
+.nav-right ,.nav-left{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.nav-left {
+    margin-top: 10px;
+
+}
+
+.nav-right ul{
+    list-style: none;
+    flex-direction: column;
+    display:none;
+}
+
+.lines{
+    position: absolute;
+    top:30px;
+    right: 20px;
+}
+
+.responsive-display{
+    display: none ;
+}
+
+/* Main */
+.main{
+    flex-direction: column-reverse;
+    padding: 30px 90px;
+}
+
+.main img{
+
+    width: 200px;
+    height: 200px;
+}
+
+/* section */
+.section2{
+    margin: 10px 20px;
+}
+
+.section2 .section-part{
+    flex-direction: column-reverse;
+    padding: 20px 0px;
+
+}
+
+.section2 .section-part .sectiontext{
+    padding: 0px 0px;
+    
+}
+
+.edit{
+    margin: 0px;
+}
+
+.section2 .section-part .sectiontext .section-part-heading{
+    
+    font-size: 1.0rem;
+    font-weight: bold;
+    font-family: 'Bree Serif', serif;
+    
+}
